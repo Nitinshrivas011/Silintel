@@ -1,0 +1,12 @@
+# Nmap 7.94SVN scan initiated Tue May 13 02:24:10 2025 as: /usr/lib/nmap/nmap --privileged -sS -p 23-80 -oN output/scans/nmap.org.txt nmap.org
+Nmap scan report for nmap.org (50.116.1.184)
+Host is up (0.057s latency).
+Other addresses for nmap.org (not scanned): 2600:3c01:e000:3e6::6d4e:7061
+rDNS record for 50.116.1.184: ack.nmap.org
+Not shown: 55 filtered tcp ports (no-response)
+PORT   STATE SERVICE
+25/tcp open  smtp
+53/tcp open  domain
+80/tcp open  http
+
+# Nmap done at Tue May 13 02:24:13 2025 -- 1 IP address (1 host up) scanned in 2.77 seconds
